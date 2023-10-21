@@ -3,7 +3,7 @@ import './ProductDetail.css';
 import addToDb from '../../utility/FakeDb';
 
 const ProductDetail = ({ product }) => {
-    // console.log(product)
+
     const { title, price, id } = product;
 
     const addToCart = (_id) => {
