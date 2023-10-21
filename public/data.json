@@ -1,0 +1,27 @@
+[
+    {
+        "id": "6533329b3e008e6d2101b63a",
+        "title": "Shirt",
+        "price": "20$"
+    },
+    {
+        "id": "6533329b631cb2c01553a27d",
+        "title": "Pant",
+        "price": "30$"
+    },
+    {
+        "id": "6533329b691247b297aa3102",
+        "title": "T-Shirt",
+        "price": "10$"
+    },
+    {
+        "id": "6533329b4c72251943e248d2",
+        "title": "Underwear",
+        "price": "20$"
+    },
+    {
+        "id": "6533329b6acfb803d56b830f",
+        "title": "Shocks",
+        "price": "20$"
+    }
+]
