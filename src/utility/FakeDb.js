@@ -10,7 +10,7 @@
 //     }
 //     else {
 
-//         localStorage.setItem(id, 1)
+//         localStorage.setItem(id, 1)j
 //     }
 // };
 
@@ -20,6 +20,13 @@
 const addToDb = id => {
     let shoppingCart = {};
 
+    // get shopping cart
+    const storedCart = localStorage.getItem('shopping-cart');
+    if (storedCart) {
+        shoppingCart = JSON.parse(storedCart);
+    }
+
+    // add quantity
     const quantity = shoppingCart[id];
     if (quantity) {
         const newQuantity = quantity + 1;
