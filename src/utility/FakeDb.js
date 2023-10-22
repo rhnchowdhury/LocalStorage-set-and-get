@@ -49,6 +49,15 @@ const removeFromDb = id => {
             localStorage.setItem('shopping-cart', JSON.stringify(shoppingCart));
         }
     }
-}
+};
 
-export { addToDb, removeFromDb };
+
+// ////////////////////////////////////////////////Total price calculate//////////////////////////
+
+const totalPrice = products => {
+    const reducer = (previous, current) => previous + current.price;
+    const total = products.reduce(reducer, 0);
+    return total;
+};
+
+export { addToDb, removeFromDb, totalPrice };
